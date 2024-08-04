@@ -8,7 +8,7 @@ import { fileURLToPath } from 'url'
 import mongoose from 'mongoose'
 
 
-  mongoose.connect("mongodb+srv://ba:ba@cluster0.9p1n17o.mongodb.net/",)
+  mongoose.connect("mongodb://127.0.0.1:27017/cinema",)
             
 // {
 //     useNewUrlParser: true,
